@@ -39,7 +39,7 @@ Reviso por separado los recursos creados
   kubectl get replicasets
   ```
 
-  - pods
+- pods
  
   ```
   kubectl get pods 
