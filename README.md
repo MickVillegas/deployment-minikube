@@ -66,7 +66,7 @@ kubectl logs deployments/mi-deployment
 Acceso desde un navegador web a la aplicación usando el port-forward y busco en el navegador la ip y el puerto
 
 ```
-kubectl port-forward mi-deployment-b5d9986d7-fksml 8000:80
+kubectl port-forward mi-deployment-b5d9986d7-fksml 8000:80 --address 0.0.0.0
 ```
 
 ![imagen](./img/7.png)
