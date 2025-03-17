@@ -69,5 +69,5 @@ Acceso desde un navegador web a la aplicación usando el port-forward y busco en
 kubectl port-forward mi-deployment-b5d9986d7-fksml 8000:80 --address 0.0.0.0
 ```
 
-![imagen](./img/7.png)
+![imagen](./img/b1.png)
 ![imagen](./img/8.png)
