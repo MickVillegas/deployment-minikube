@@ -10,6 +10,8 @@ Inicio minikube con
 minikube start --driver none --network-plugin cni --cni flannel
 ```
 
+![imagen](./img/c3.png)
+
 Y creo el deployment con
 
 ```
@@ -24,7 +26,7 @@ Comprobación de los recursos creados con
 kubectl  get all
 ```
 
-![imagen](./img/3.png)
+![imagen](./img/c1.png)
 
 Reviso por separado los recursos creados
 - deployments
@@ -70,4 +72,4 @@ kubectl port-forward mi-deployment-b5d9986d7-8tsxc 8000:80 --address 0.0.0.0
 ```
 
 ![imagen](./img/b1.png)
-![imagen](./img/8.png)
+![imagen](./img/c2.png)
